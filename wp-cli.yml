@@ -1,2 +1,2 @@
 require:
-  - hello-world-command.php
+  - check-it-command.php

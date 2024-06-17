@@ -1,11 +1,11 @@
 <?php
 
-namespace WP_CLI\HelloWorld;
+namespace WP_CLI\CheckIt;
 
 use WP_CLI;
 use WP_CLI_Command;
 
-class HelloWorldCommand extends WP_CLI_Command {
+class CheckItCommand extends WP_CLI_Command {
 
 	/**
 	 * Greets the world.
@@ -22,6 +22,6 @@ class HelloWorldCommand extends WP_CLI_Command {
 	 * @param array $assoc_args Associative array of associative arguments.
 	 */
 	public function __invoke( $args, $assoc_args ) {
-		WP_CLI::success( 'Hello World!' );
+		WP_CLI::success( 'Hello Dingus' );
 	}
 }

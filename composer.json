@@ -4,7 +4,7 @@
     "description": "",
     "homepage": "https://github.com/zanedefazio/wp-cli-check-it",
     "license": "MIT",
-    "authors": [],
+    "authors": ["Zane DeFazio"],
     "require": {
         "wp-cli/wp-cli": "^2.5"
     },
@@ -24,15 +24,15 @@
         },
         "bundled": false,
         "commands": [
-            "hello-world"
+            "check-it"
         ]
     },
     "autoload": {
         "psr-4": {
-            "WP_CLI\\HelloWorld\\": "src/"
+            "WP_CLI\\CheckIt\\": "src/"
         },
         "files": [
-            "hello-world-command.php"
+            "check-it-command.php"
         ]
     },
     "minimum-stability": "dev",
